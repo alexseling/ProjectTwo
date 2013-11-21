@@ -117,6 +117,8 @@
     <Compile Include="AnimatedModel.cs" />
     <Compile Include="AnimationPlayer.cs" />
     <Compile Include="Bazooka.cs" />
+    <Compile Include="Dalek.cs" />
+    <Compile Include="Gort.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PrisonModel.cs" />
     <Compile Include="Camera.cs" />

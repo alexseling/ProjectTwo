@@ -58,6 +58,7 @@ namespace PrisonStep
         KeyboardState lastKBS;
 
         private Dictionary<string, List<Vector2>> regions = new Dictionary<string, List<Vector2>>();
+        public Dictionary<string, List<Vector2>> Regions { get { return regions; } }
 
         bool crouched = false;
         bool bazookaUp = false;

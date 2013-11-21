@@ -247,6 +247,58 @@
       <Processor>AnimationProcessor</Processor>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dalek.FBX">
+      <Name>Dalek</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+    </Compile>
+    <Compile Include="Gort-catcheat.FBX">
+      <Name>Gort-catcheat</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <ProcessorParameters_Skinned>True</ProcessorParameters_Skinned>
+    </Compile>
+    <Compile Include="Gort-salute.FBX">
+      <Name>Gort-salute</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <ProcessorParameters_Skinned>True</ProcessorParameters_Skinned>
+    </Compile>
+    <Compile Include="Gort-stance.FBX">
+      <Name>Gort-stance</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <ProcessorParameters_Skinned>True</ProcessorParameters_Skinned>
+    </Compile>
+    <Compile Include="Gort-walkloop.FBX">
+      <Name>Gort-walkloop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <ProcessorParameters_Skinned>True</ProcessorParameters_Skinned>
+    </Compile>
+    <Compile Include="Gort-walkstart.FBX">
+      <Name>Gort-walkstart</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <ProcessorParameters_Skinned>True</ProcessorParameters_Skinned>
+    </Compile>
+    <Compile Include="Gort.FBX">
+      <Name>Gort</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+    </Compile>
+    <Compile Include="pies.FBX">
+      <Name>pies</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Spit.FBX">
+      <Name>Spit</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
